@@ -1,0 +1,213 @@
+/* site specific styles */
+
+<?php 
+$site_name = "travelability";
+$bg_color = "#e6f2fb";
+$headline_color = "#0c7d77";
+$top_header_color = "#fc9616";
+$highlight_color = "#ecf5fa";
+$link_color = "#fc9616";
+$nav_color = "#464646";
+?>
+body { background: <?= $bg_color ?> url(../img/<?php echo $site_name; ?>/bg.jpg) top center no-repeat;
+ padding: 0;
+ }
+
+#breadcrumb, #breadcrumb a { color: black; }
+#footer, #footer a { color: black; }
+
+/***** navigation bar *****/
+
+ul#nav {
+ border-top: 1px solid #aaa;
+ padding-top: 0;
+ margin-top: 10px;
+}
+
+#homeLink {
+ display: block;
+ height: 154px;
+ background: url(../img/<?php echo $site_name; ?>/home.jpg) no-repeat;
+ position: relative;
+}
+
+#cdaLink {
+ display: block;
+ height: 75px;
+}
+
+#ingleLink {
+ display: block;
+ height: 75px;
+}
+
+#partnerLink {
+ display: block;
+ height: 75px;
+}
+
+a#visitorsLink {
+ display: block;
+ height: 130px;
+ background-image: url(../img/<?php echo $site_name; ?>/visitorsLink.jpg);
+ margin: 5px 0;
+}
+
+a#snowbirdsLink {
+ display: block;
+ height: 130px;
+ background-image: url(../img/<?php echo $site_name; ?>/snowbirdsLink.jpg);
+ margin: 5px 0;
+}
+
+a#needHelpLink {
+ display: block;
+ height: 130px;
+ background-image: url(../img/<?php echo $site_name; ?>/needHelpLink.jpg);
+ margin: 10px 0;
+}
+
+ul.nav li {
+ background: url(../img/<?php echo $site_name; ?>/bullet.gif) 2px 6px no-repeat;
+}
+
+ul.nav ul li {
+ background: url(../img/<?php echo $site_name; ?>/smallBullet.gif) 2px 7px no-repeat;
+}
+
+ul.nav a { color: #32918e; }
+ul.nav a.current {
+ color: <?php echo $nav_color ; ?>;
+ font-weight: bold;
+}
+
+/***** content *****/
+
+h1, h2 { color: <?php echo $headline_color ?>; }
+h1 { font-family: "century gothic", helvetica, arial, sans-serif; }
+h2 { font-family: corbel, "century gothic", helvetica, arial, sans-serif; font-size: 1.8em; }
+
+#content h1 a:link, #content h1 a:visited, #content h2 a:link, #content h2 a:visited {
+ color: <?php echo $headline_color ?>;
+}
+
+#content a:link, #content a:visited {
+ color: <?php echo $link_color ?>;
+}
+
+/***** header images *****/
+/*
+h1.header.home { background-image: url(../img/<?php echo $site_name; ?>/header_home.jpg); }
+h1.header.travel { background-image: url(../img/<?php echo $site_name; ?>/header_travel.jpg); }
+h1.header.health { background-image: url(../img/<?php echo $site_name; ?>/header_health.jpg); }
+h1.header.life { background-image: url(../img/<?php echo $site_name; ?>/header_life.jpg); }
+h1.header.quote { background-image: url(../img/<?php echo $site_name; ?>/header_quote.jpg); }
+h1.header.faq { background-image: url(../img/<?php echo $site_name; ?>/header_faq.jpg); }
+h1.header.about { background-image: url(../img/<?php echo $site_name; ?>/header_about.jpg); }
+h1.header.contact { background-image: url(../img/<?php echo $site_name; ?>/header_contact.jpg); }
+h1.header.claims { background-image: url(../img/<?php echo $site_name; ?>/header_claims.jpg); }
+h1.header.auto { background-image: url(../img/<?php echo $site_name; ?>/header_vehicleInsurance.jpg); }
+h1.header.homeInsurance { background-image: url(../img/<?php echo $site_name; ?>/header_homeInsurance.jpg); }
+h1.header.livingBenefits { background-image: url(../img/<?php echo $site_name; ?>/header_livingBenefits.jpg); }
+h1.header.termsOfService { background-image: url(../img/<?php echo $site_name; ?>/header_termsOfService.jpg); }
+h1.header.privacy { background-image: url(../img/<?php echo $site_name; ?>/header_privacy.jpg); }
+h1.header.legal { background-image: url(../img/<?php echo $site_name; ?>/header_legal.jpg); }
+h1.header.info { background-image: url(../img/<?php echo $site_name; ?>/header_info.jpg); }
+h1.header.whyInsurance { background-image: url(../img/<?php echo $site_name; ?>/header_whyInsurance.jpg); }
+h1.header.student { background-image: url(../img/<?php echo $site_name; ?>/header_student.jpg); }
+*/
+h1.header {
+ height: 62px;
+ background-image: url(../img/<?php echo $site_name; ?>/header_home.jpg);
+ padding: 60px 0 0 6px;
+ color: <?php echo $top_header_color; ?>;
+ }
+h1.header span { 
+ display: inline;
+}
+
+/***** home/index *****/
+
+a.pageLink {
+ display: block;
+ float: left;
+ width: 220px;
+ height: 80px;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+a.pageLink.travel {
+ margin-right: 14px;
+ margin-left: -5px;
+ background-image: url(../img/<?php echo $site_name; ?>/travelLink.jpg);
+}
+
+* html a.pageLink.travel { margin-left: -2px; }
+
+a.pageLink.health {
+ margin-right: 14px;
+ background-image: url(../img/<?php echo $site_name; ?>/healthLink.jpg);
+}
+
+a.pageLink.life {
+ margin-right: -5px;
+ background-image: url(../img/<?php echo $site_name; ?>/lifeLink.jpg);
+}
+
+a.pageLink.living {
+ margin-right: 14px;
+ margin-left: -5px;
+ background-image: url(../img/<?php echo $site_name; ?>/livingLink.jpg);
+}
+
+* html a.pageLink.living { margin-left: -2px; }
+
+a.pageLink.homeInsurance {
+ margin-right: 14px;
+ background-image: url(../img/<?php echo $site_name; ?>/homeInsuranceLink.jpg);
+}
+
+a.pageLink.vehicle {
+ margin-right: -5px;
+ background-image: url(../img/<?php echo $site_name; ?>/vehicleLink.jpg);
+}
+
+/***** travel *****/
+
+a.button {
+ display: block;
+ float: left;
+ width: 165px;
+ height: 130px;
+ text-indent: -1000em;
+ margin: 0 2px;
+ background-repeat: no-repeat;
+ background-image: 50% 10px;
+}
+
+* html a.snowbirds {
+/* fix ie6 duplicate character bug */
+ margin-right: -3px;
+}
+
+a.button.visitorsToCanada { background-image: url(/img/<?php echo $site_name; ?>/travel_visitorsToCanada.jpg); }
+a.button.canadianResidents { background-image: url(../img/<?php echo $site_name; ?>/travel_canadianResidents.jpg); }
+a.button.internationalStudents { background-image: url(../img/<?php echo $site_name; ?>/travel_internationalStudents.jpg); }
+a.button.snowbirds { background-image: url(../img/<?php echo $site_name; ?>/travel_snowbirds.jpg); }
+
+
+/***** iframes *****/
+
+iframe {
+ display: block;
+width: 100%;
+}
+
+
+/***** forms and highlighting *****/
+
+#content .highlight { background-color: <?= $highlight_color; ?>; }
+
+ul.addStripes { border: solid <?= $highlight_color; ?>; }
+

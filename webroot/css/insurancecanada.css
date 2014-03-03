@@ -1,0 +1,199 @@
+/* site specific styles */
+
+<?php 
+$site_name = "insurancecanada";
+$bg_color = "#4b4f86";
+$headline_color = "#4b4f86";
+$highlight_color = "#E7E9F3";
+$nav_color = "#4b4f86";
+?>
+body { background-color: <?= $bg_color ?>; }
+
+#breadcrumb, #breadcrumb a, #footer, #footer a { color: white; }
+
+/***** navigation bar *****/
+
+#homeLink {
+ display: block;
+ height: 154px;
+ background: url(../img/<?php echo $site_name; ?>/home.gif) no-repeat;
+ position: relative;
+}
+
+#partnerLink {
+ display: block;
+ height: 75px;
+}
+
+#ingleLink {
+ display: block;
+ height: 75px;
+}
+
+a#visitorsLink {
+ display: block;
+ height: 150px;
+ background: url(../img/<?php echo $site_name; ?>/visitorsLink.jpg) no-repeat;
+ margin: 5px 0;
+}
+
+a#snowbirdsLink {
+ display: block;
+ height: 150px;
+ background: url(../img/<?php echo $site_name; ?>/snowbirdsLink.jpg) no-repeat;
+ margin: 5px 0;
+}
+
+a#needHelpLink {
+ display: block;
+ height: 150px;
+ background: url(../img/<?php echo $site_name; ?>/needHelpLink.jpg) no-repeat;
+ margin: 10px 0;
+}
+
+ul.nav li {
+ background: url(../img/<?php echo $site_name; ?>/bullet.gif) 2px 6px no-repeat;
+}
+
+ul.nav ul li {
+ background: url(../img/<?php echo $site_name; ?>/smallBullet.gif) 2px 7px no-repeat;
+}
+
+ul.nav a.current {
+ color: <?php echo $nav_color ; ?>;
+ font-weight: bold;
+}
+
+/***** content *****/
+
+h1, h2 { color: <?php echo $headline_color ?>; }
+h1 { font-family: "century gothic", helvetica, arial, sans-serif; }
+h2 { font-family: corbel, "century gothic", helvetica, arial, sans-serif; font-size: 1.8em; }
+
+#content h1 a:link, #content h1 a:visited, #content h2 a:link, #content h2 a:visited {
+ color: <?php echo $headline_color ?>;
+}
+
+#content a:link, #content a:visited {
+ color: <?php echo $headline_color ?>;
+}
+
+/***** header images *****/
+h1.header span {
+ display: inline;
+}
+h1.header {
+ color: white;
+ font: 36px arial;
+ background: url(../img/<?php echo $site_name; ?>/header.jpg) repeat-x;
+ padding: 20px 0 0 15px;
+ height: 112px;
+}
+
+
+/***** home/index *****/
+
+a.pageLink {
+ display: block;
+ float: left;
+ width: 280px;
+ height: 150px;
+ padding-bottom: 10px;
+ background-repeat: no-repeat;
+}
+
+a.pageLink.travel {
+ background: url(../img/<?php echo $site_name; ?>/travelLink.jpg) 40px 0 no-repeat;
+ padding-left: 40px;
+}
+
+* html a.pageLink.travel { margin-left: -2px; }
+
+a.pageLink.health {
+ float: right;
+ padding-right: 40px;
+ background: url(../img/<?php echo $site_name; ?>/healthLink.jpg) 0 0 no-repeat;
+}
+
+a.pageLink.life {
+ padding-left: 40px;
+ background: url(../img/<?php echo $site_name; ?>/lifeLink.jpg) 40px 0 no-repeat;
+}
+
+a.pageLink.living {
+ float: right;
+ padding-right: 40px;
+ background: url(../img/<?php echo $site_name; ?>/livingLink.jpg) 0 0 no-repeat;
+}
+
+* html a.pageLink.living { margin-left: -2px; }
+
+a.pageLink.homeInsurance {
+ height: 80px;
+ margin-right: 14px;
+ background-image: url(../img/<?php echo $site_name; ?>/homeInsuranceLink.jpg);
+}
+
+a.pageLink.vehicle {
+ height: 80px;
+ margin-right: -5px;
+ background-image: url(../img/<?php echo $site_name; ?>/vehicleLink.jpg);
+}
+
+/***** travel *****/
+
+a.button {
+ display: block;
+ float: left;
+ width: 165px;
+ height: 70px;
+ text-indent: -1000em;
+ margin: 0 2px;
+ background-repeat: no-repeat;
+ background-image: 50% 10px;
+}
+
+* html a.snowbirds {
+/* fix ie6 duplicate character bug */
+ margin-right: -3px;
+}
+
+a.button.visitorsToCanada { background-image: url(/img/<?php echo $site_name; ?>/travel_visitors_to_canada.jpg); }
+a.button.canadianResidents { background-image: url(../img/<?php echo $site_name; ?>/travel_canadian_residents.jpg); }
+a.button.internationalStudents { background-image: url(../img/<?php echo $site_name; ?>/travel_international_students.jpg); }
+a.button.snowbirds { background-image: url(../img/<?php echo $site_name; ?>/travel_snowbirds.jpg); }
+
+
+/***** iframes *****/
+
+iframe {
+ display: block;
+width: 100%;
+}
+
+/***** home/auto *****/
+
+a.getAQuote {
+ display: block;
+ width: 94px;
+ height: 27px;
+ margin-left: 20px;
+ background-image: url(../img/<?php echo $site_name; ?>/getAQuote.jpg);
+}
+
+a.getAQuote span { display: none; }
+
+a.getStarted {
+ background: url(../img/<?= $site_name; ?>/getStarted.jpg);
+ display: block;
+ text-indent: -1000px;
+ height: 27px;
+ width: 94px;
+}
+
+/***** forms and highlighting *****/
+
+#content .highlight { background-color: <?= $highlight_color; ?>; }
+
+ul.addStripes { border: solid <?= $highlight_color; ?>; }
+

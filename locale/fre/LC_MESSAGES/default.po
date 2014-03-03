@@ -1,0 +1,545 @@
+# breadcrumb
+
+msgid "You are here:"
+msgstr "Vous etes ici :"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "Log out"
+msgstr "D�connexion"
+
+msgid "Log in"
+msgstr "Connexion"
+
+# site specific stuff
+
+msgid "www.cysticfibrosis.ca/"
+msgstr "www.cysticfibrosis.ca/maison.asp"
+
+# navigation
+
+msgid "Travel Insurance"
+msgstr "Assurance voyage"
+
+msgid "Canadian Residents"
+msgstr "Voyageurs canadiens"
+
+msgid "All-Inclusive Travel Plan"
+msgstr "Forfait complet"
+
+msgid "Medical Only Plan"
+msgstr "Medical Only Plan"
+
+msgid "Non-Medical Plan"
+msgstr "R�gime sans soins m�dicaux"
+
+msgid "Visitors to Canada"
+msgstr "Visiteurs au Canada"
+
+msgid "International Students"
+msgstr "�tudiants internationaux au Canada"
+
+msgid "Expatriate"
+msgstr "Expatri�s"
+
+msgid "International Travel"
+msgstr "Voyage international"
+
+msgid "Atlas Travel"
+msgstr ""
+
+msgid "Snowbirds"
+msgstr "Retrait�s canadiens"
+
+msgid "Student Insurance"
+msgstr "Assurance pour �tudiants"
+
+msgid "Health Insurance"
+msgstr "Assurance maladie"
+
+msgid "Extended Health"
+msgstr "Assurance maladie compl�mentaire"
+
+msgid "Request Form"
+msgstr "Formulaire de demande"
+
+msgid "Employee Group"
+msgstr "R�gimes d�assurance collective pour les employeurs"
+
+msgid "Life & Living Benefits"
+msgstr "Vie et prestations du vivant"
+
+msgid "Life Insurance"
+msgstr "Assurance vie"
+
+msgid "Living Benefits"
+msgstr "Prestations du vivant"
+
+msgid "Special Risk"
+msgstr "Risques sp�ciaux"
+
+msgid "Custom / Group Quote"
+msgstr "Soumission sur mesure / groupe"
+
+msgid "All Products"
+msgstr "Tous les produits"
+
+msgid "Important Information"
+msgstr "Centre d'information"
+
+msgid "Flu Information"
+msgstr "Grippe pand�mique"
+
+msgid "Travel Information"
+msgstr "Information sur les voyages"
+
+msgid "Health Information"
+msgstr "Information sur la sant�"
+
+msgid "Why Do I Need Insurance?"
+msgstr ""
+
+msgid "Choosing the Right Travel Insurance"
+msgstr ""
+
+msgid "Understanding Your Travel Insurance Policy"
+msgstr ""
+
+msgid "Frequently Asked Questions"
+msgstr ""
+
+msgid "Claims Information"
+msgstr "Demandes de r�glement et assistance en cas d�urgence"
+
+# resource nav
+
+msgid "Commission Statements"
+msgstr "Relev�s de commission et Information"
+
+msgid "Booking & Admin Systems"
+msgstr "Syst�mes d�Administration et de R�servation"
+
+msgid "Forms & Resources"
+msgstr "Formulaires et Ressources"
+
+msgid "Information Centre"
+msgstr "Centre d'information"
+
+msgid "About Us"
+msgstr "� propos de nous"
+
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+msgid "Home Insurance"
+msgstr ""
+
+msgid ""
+msgstr "Auto Insurance"
+
+# footer nav
+
+msgid "Privacy Policy"
+msgstr "Protection des renseignements personnels"
+
+msgid "Legal Notice"
+msgstr "Avis juridique et licences"
+
+msgid "Terms of Service"
+msgstr "Conditions d�utilisation"
+
+msgid "Copyright"
+msgstr "Droits d'auteur"
+
+# login nav
+
+msgid "Registered Agents: Log In Here"
+msgstr "Repr�sentants inscrits : Entrez ici"
+
+msgid "Change Your Password"
+msgstr "Changer mot de passe"
+
+msgid "New Agents: Register Now"
+msgstr "Nouveaux repr�sentants : Inscrivez-vous maintenant"
+
+# sidebar
+
+msgid "Snowbird Insurance"
+msgstr "Retrait�s canadiens"
+
+msgid "Visitors to Canada Insurance"
+msgstr ""
+
+msgid "Powered by Peak Contact"
+msgstr "Site expoit� par Peak Contact"
+
+msgid "Products"
+msgstr "Produits"
+
+msgid "Resources"
+msgstr "Ressources"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+# text
+
+msgid "Policy Wording"
+msgstr "police"
+
+msgid "Brochure"
+msgstr "brochure"
+
+msgid "Medi-Select Advantage Plan"
+msgstr "M�di-S�lect Avantage"
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+msgid ""
+msgstr ""
+
+# months
+
+msgid  "January"
+msgstr "janvier"
+
+msgid  "February"
+msgstr "f�vrier"
+
+msgid  "March"
+msgstr "mars"
+
+msgid  "April"
+msgstr "avril"
+
+msgid  "May"
+msgstr "mai"
+
+msgid  "June"
+msgstr "juin"
+
+msgid  "July"
+msgstr "juillet"
+
+msgid  "August"
+msgstr "ao�t"
+
+msgid  "September"
+msgstr "septembre"
+
+msgid  "October"
+msgstr "octobre"
+
+msgid  "November"
+msgstr "novembre"
+
+msgid  "December"
+msgstr "d�cembre"
+
+# date format
+
+msgid "MDY"
+msgstr "YMD"
+
+# form labels
+
+msgid "Username"
+msgstr "Nom d�utilisateur"
+
+msgid "Password"
+msgstr "Mot de passe "
+
+msgid "Login"
+msgstr "Ouverture de session"
+
+msgid "Submit"
+msgstr "soumettre"
+
+msgid "Enter your new password"
+msgstr "Entrez votre nouveau mot de passe"
+
+msgid "Enter your new password a second time"
+msgstr "Entrez-le une deuxi�me fois"
+
+msgid "Change Password"
+msgstr "Changer mot de passe"
+
+msgid "Your passwords must match"
+msgstr "Vous devez entrer le m�me mot de passe dans les deux champs"
+
+msgid "Forgotten Password"
+msgstr "Mot de passe oubli�"
+
+msgid "Login failed. Invalid username or password."
+msgstr "Votre ouverture de session n�a pas r�ussi. Votre nom d�utilisateur ou votre mot de passe n�est pas valide."
+
+msgid "Your password has been reset"
+msgstr "Votre mot de passe a �t� r�initialis�"
+
+msgid ""
+msgstr ""
+
+msgid "First Name"
+msgstr "Pr�nom"
+
+msgid "Last Name"
+msgstr "Nom de famille"
+
+msgid "Organization"
+msgstr "Organisation"
+
+msgid "Position"
+msgstr "Poste"
+
+msgid "Email"
+msgstr "Adresse courriel"
+
+msgid "Address"
+msgstr "Adresse postale"
+
+msgid "City"
+msgstr "Ville"
+
+msgid "Province"
+msgstr "Province"
+
+msgid "Canadian Province"
+msgstr "Province"
+
+msgid "Postal Code"
+msgstr "Code postale"
+
+msgid "Country"
+msgstr "Pays"
+
+msgid "Phone"
+msgstr "T�l�phone"
+
+msgid "Fax"
+msgstr "T�l�copieur"
+
+msgid "Gender"
+msgstr "Sexe"
+
+msgid "male"
+msgstr "m�le"
+
+msgid "female"
+msgstr "femelle"
+
+msgid "Date of Birth"
+msgstr "Date de naissance"
+
+msgid "Number of Travellers"
+msgstr "Nombre de voyageurs"
+
+msgid "Destination"
+msgstr "Destination"
+
+msgid "Departure Date"
+msgstr "Date de d�part"
+
+msgid "Return Date"
+msgstr "Date de retour"
+
+msgid "Purpose of Travel"
+msgstr "But du voyage"
+
+msgid "Special Needs"
+msgstr "Besoins sp�ciaux"
+
+msgid "Additional Comments"
+msgstr "Commentaires additionnels"
+
+msgid "yes"
+msgstr "oui"
+
+msgid "no"
+msgstr "non"
+
+msgid "Company Name"
+msgstr "Nom de l�entreprise"
+
+msgid "Company Address"
+msgstr "Adresse postale"
+
+msgid "Years in Business"
+msgstr "Ann�es en affaires"
+
+msgid "Nature of Business"
+msgstr "Type d�entreprise"
+
+msgid "Do all employees work a minimum of 20 hours per week?"
+msgstr "Est-ce que tous les employ�s travaillent un minimum de 20 heures par semaine ?"
+
+msgid "Any employees on commission basis? (Details)"
+msgstr "Y a-t-il des employ�s pay�s � la commission ? Donnez plus de d�tail"
+
+msgid "Employee covered by Workers Compensation?"
+msgstr "Y a-t-il des employ�s couverts par l�indemnit� pour accident du travail ?"
+
+msgid "Any employees involved in hazardous activities such as flying,<br /> offshore activies, handling of dangerous chemicals, etc.?"
+msgstr "Y a-t-il des employ�s impliqu�s dans des activit�s dangereuses, telles que le pilotage,<br /> des activit�s � l��tranger, des produits dangereux, etc. ?"
+
+msgid "Has there been a staff turnover of more than 30% in the last two years?"
+msgstr "Y avait-il un renouvellement du personnel de plus de 30 % <br />pendant les deux ann�es derni�res ?"
+
+msgid "Are all the employees residents of Canada?"
+msgstr "Est-ce que tous vos employ�s sont des r�sidents canadiens ?"
+
+msgid "Do you have a present group plan?"
+msgstr "Poss�dez-vous actuellement un r�gime d�assurance collective ?"
+
+msgid "Any employees presently off due to illness?"
+msgstr "Avez-vous des employ�s qui sont pr�sentement en cong� de maladie ?"
+
+msgid "I would like my quote returned by"
+msgstr "Je voudrais que vous me fassiez parvenir ma soumission par"
+
+msgid "email"
+msgstr "courriel"
+
+msgid "phone"
+msgstr "t�l�phone"
+
+msgid "fax"
+msgstr "t�l�copieur"
+
+msgid "Which insurance product do you require?"
+msgstr "Vous avez besoin de quel produit d�assurance ?"
+
+msgid "Critical Illness"
+msgstr "Assurance maladies graves"
+
+msgid "Disability & Income Replacement"
+msgstr "Assurance invalidit�"
+
+msgid "Long-Term Care"
+msgstr "Assurance soins de longue dur�e"
+
+msgid "What amount of insurance would you like?"
+msgstr "Vous voudriez quel somme assur� ?"
+
+msgid "Height"
+msgstr "Taille"
+
+msgid "Weight"
+msgstr "Poids"
+
+msgid "Occupation"
+msgstr "Occupation"
+
+msgid "Current Annual Income"
+msgstr "Actuel de revenu annuel"
+
+msgid "Are you a smoker?"
+msgstr "�tes-vous fumeur ?"
+
+msgid "Are you currently being treated for any medical conditions?"
+msgstr "Recevez-vous actuellement des traitements pour des conditions m�dicales ?"
+
+msgid "If yes, please provide details"
+msgstr "Si oui, veuillez fournir plus de d�tail"
+
+msgid "Date of most recent hospitalization"
+msgstr "Date de votre hospitalisation la plus r�cente"
+
+msgid "Which type of life insurance do you require?"
+msgstr "Vous avez besoin de quel type d�assurance ?"
+
+msgid "10 Year Term"
+msgstr "Vie temporaire � 10 ans"
+
+msgid "20 Year Term"
+msgstr "Vie temporaire � 20 ans"
+
+msgid "Universal Life"
+msgstr "Vie universelle"
+
+msgid "Whole Life"
+msgstr "Vie enti�re"
+
+msgid "Number Of Companions"
+msgstr "Nombre de compagnons"
+
+msgid "Date of Birth of Companion 1"
+msgstr "Date de naissance du compagnon 1"
+
+msgid "Date of Birth of Companion 2"
+msgstr "Date de naissance du compagnon 2"
+
+msgid "Date of Birth of Companion 3"
+msgstr "Date de naissance du compagnon 3"
+
+msgid "Date of Birth of Companion 4"
+msgstr "Date de naissance du compagnon 4"
+
+msgid "Date of Birth of Companion 5"
+msgstr "Date de naissance du compagnon 5"
+
+msgid "Date of Birth of Companion 6"
+msgstr "Date de naissance du compagnon 6"
+
+msgid "Date of Birth of Companion 7"
+msgstr "Date de naissance du compagnon 7"
+
+msgid "Date of Birth of Companion 8"
+msgstr "Date de naissance du compagnon 8"
+
+msgid "Date of Birth of Companion 9"
+msgstr "Date de naissance du compagnon 9"
+
+msgid "Date of Birth of Companion 10"
+msgstr "Date de naissance du compagnon 10"
+
+msgid "Are you covered by the Government Health Insurance Plan<br /> of your province of residence?"
+msgstr "�tes-vous couvert par le plan gouvernemental d'assurance maladie<br /> de votre province de r�sidence?"
+
+msgid "Coverage Type"
+msgstr "Type de couverture"
+
+msgid "Individual"
+msgstr "Individuel"
+
+msgid "Couple"
+msgstr "Couple"
+
+msgid "Family"
+msgstr "Famille"
+
+msgid "Single Parent"
+msgstr "Chef de famille monoparentale"
+
+# form error messages
+
+msgid "This field cannot be left blank"
+msgstr "Ce champ ne peut pas �tre vide"
+
+msgid "Please enter a valid postal code"
+msgstr "S'il vous pla�t entrer un code postal valide"
+
+msgid "Please enter a valid email address"
+msgstr "S'il vous pla�t entrer une adresse �lectronique valide"

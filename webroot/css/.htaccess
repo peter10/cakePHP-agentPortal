@@ -1,0 +1,2 @@
+AddHandler application/x-httpd-php .css
+php_value default_mimetype "text/css"

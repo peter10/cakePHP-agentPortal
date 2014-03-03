@@ -1,0 +1,399 @@
+body {
+ margin: 0;
+ padding: 1em;
+ background: #796358;
+ font-family: arial, verdana, helvetica, arial, sans-serif;
+}
+
+#wrapper {
+ width: 912px;
+ margin: 0 auto;
+}
+
+.corners {
+ height: 5px;
+ background-image: url(../img/generic/corners.gif);
+}
+
+.corners.bottom {
+ background-position: bottom;
+ clear: both;
+}
+
+#footer {
+ color: white;
+ text-align: right;
+ font-size: .8em;
+ line-height: 1.5em;
+ padding-right: 5px;
+}
+
+#footer a {
+ color: white;
+}
+
+#footer a:hover{
+ text-decoration: none;
+}
+
+#page {
+ background-color: white;
+ padding: 7px 13px 10px 15px;
+ width: 884px;
+ float: left;
+}
+
+/***** navigation bar *****/
+
+
+
+#navBar {
+ float: left;
+ width: 178px;
+}
+
+a#homeLink {
+ display: block;
+ height: 123px;
+ background-image: url(../img/generic/home.jpg);
+}
+
+a#snowbirdsLink {
+ display: none;
+ height: 129px;
+ margin: 10px 0;
+ background-image: url(../img/generic/snowbirdsLink.jpg);
+}
+
+a#needHelpLink {
+ display: block;
+ height: 129px;
+ margin: 10px 0;
+ background-image: url(../img/generic/needHelpLink.jpg);
+}
+
+a#homepage {
+ display: block;
+ height: 57px;
+ margin: 10px 0;
+ background-image: url(../img/generic/homepage.jpg);
+}
+
+a#homepage span {
+ display: none;
+}
+
+a#poweredByPeak {
+ display: block;
+ height: 45px;
+ margin: 10px 0;
+ background-image: url(../img/peak/powered_by_peak.jpg);
+}
+
+a#poweredByPeak span {
+ display: none;
+}
+
+ul.nav {
+ margin: 0 3px 0 4px;
+ padding: 10px 0 15px 0;
+ font-size: .9em;
+}
+
+ul.nav li {
+ display: block;
+ list-style-type: none;
+ padding: 2px 0 2px 13px;
+ background: url(../img/generic/bullet.gif) 2px 6px no-repeat;
+ border-bottom: 1px solid #aaa;
+}
+
+ul.nav ul {
+ margin: 0;
+ padding: 0;
+ font-size: .9em;
+}
+
+ul.nav ul li {
+ padding: 0 0 0 8px;
+ background: url(../img/generic/smallBullet.gif) 2px 7px no-repeat;
+ border-bottom: none;
+}
+
+ul.nav a {
+ color: black;
+ text-decoration: none;
+}
+
+ul.nav a.current {
+ color: #796358;
+ font-weight: bold;
+}
+
+ul.nav a:hover {
+ text-decoration: underline;
+}
+
+/***** content *****/
+
+#content {
+ float: right;
+ width: 690px;
+ /* need to move the content in by 5 pixels each side as the header images overflow by this much */
+ width: 680px;
+ padding: 0 5px;
+ font-size: 1em;
+ font-family: arial, sans-serif;
+}
+
+h1 {
+ color: #b50005;
+ font-size: 1.4em;
+}
+
+h2 {
+ color: #b50005;
+ font-size: 1.2em;
+}
+
+h3 {
+ font-size: 1em;
+}
+
+#content h1 a:link, #content h1 a:visited, #content h2 a:link, #content h2 a:visited {
+ color: #b50005;
+}
+
+
+#content a:link, #content a:visited {
+ color: #796358;
+}
+
+#content a:hover, #content a active {
+ text-decoration: none;
+}
+/***** header images *****/
+
+
+
+h1.header {
+ margin: 0 -5px;
+ height: 122px;
+}
+
+
+h1.header span { display: none; }
+
+h1.header, h1.header.home  { background-image: url(../img/generic/header_home.jpg); }
+
+h1.header.travel { background-image: url(../img/generic/header_travel.jpg); }
+
+h1.header.health { background-image: url(../img/generic/header_health.jpg); }
+
+h1.header.life { background-image: url(../img/generic/header_life.jpg); }
+
+h1.header.quote { background-image: url(../img/generic/header_quote.jpg); }
+
+h1.header.faq { background-image: url(../img/generic/header_faq.jpg); }
+
+h1.header.about { background-image: url(../img/generic/header_about.jpg); }
+
+h1.header.contact { background-image: url(../img/generic/header_contact.jpg); }
+
+h1.header.claims { background-image: url(../img/generic/header_claims.jpg); }
+
+h1.header.auto { background-image: url(../img/generic/header_vehicle.jpg); }
+
+h1.header.homeInsurance { background-image: url(../img/generic/header_homeInsurance.jpg); }
+
+h1.header.livingBenefits { background-image: url(../img/generic/header_livingBenefits.jpg); }
+
+h1.header.termsOfService { background-image: url(../img/generic/header_termsOfService.jpg); }
+
+h1.header.privacy { background-image: url(../img/generic/header_privacy.jpg); }
+
+h1.header.legal { background-image: url(../img/generic/header_legal.jpg); }
+
+h1.header.info { background-image: url(../img/generic/header_info.jpg); }
+
+h1.header.whyInsurance { background-image: url(../img/generic/header_whyInsurance.jpg); }
+
+
+
+
+
+/***** home/index *****/
+
+
+
+a.pageLink {
+
+ display: block;
+
+ float: left;
+
+ width: 220px;
+
+ background-repeat: no-repeat;
+
+}
+
+
+
+a.pageLink.travel {
+
+ height: 155px;
+
+ margin-right: 14px;
+
+ margin-left: -5px;
+
+ background-image: url(../img/generic/travelLink.jpg);
+
+}
+
+
+* html a.pageLink.travel { margin-left: -2px; }
+
+
+a.pageLink.health {
+
+ height: 155px;
+
+ margin-right: 14px;
+
+ background-image: url(../img/generic/healthLink.jpg);
+
+}
+
+
+
+a.pageLink.life {
+
+ height: 155px;
+
+ margin-right: -5px;
+
+ background-image: url(../img/generic/lifeLink.jpg);
+
+}
+
+
+
+a.pageLink.living {
+
+ height: 119px;
+
+ margin-right: 14px;
+
+ margin-left: -5px;
+
+ background-image: url(../img/generic/livingLink.jpg);
+
+}
+
+* html a.pageLink.living { margin-left: -2px; }
+
+a.pageLink.homeInsurance {
+
+ height: 119px;
+
+ margin-right: 14px;
+
+ background-image: url(../img/generic/homeInsuranceLink.jpg);
+
+}
+
+
+
+a.pageLink.vehicle {
+
+ height: 119px;
+
+ margin-right: -5px;
+
+ background-image: url(../img/generic/vehicleLink.jpg);
+
+}
+
+/***** travel *****/
+
+a.button {
+ display: block;
+ float: left;
+ width: 165px;
+ height: 109px;
+ text-indent: -1000em;
+ margin: 0 0px;
+}
+
+a.button.visitorsToCanada { background-image: url(../img/generic/travel_visitorsToCanada.jpg); }
+a.button.canadianResidents { background-image: url(../img/generic/travel_canadianResidents.jpg); }
+a.button.internationalStudents { background-image: url(../img/generic/travel_internationalStudents.jpg); }
+a.button.snowbirds { background-image: url(../img/generic/travel_snowbirds.jpg); }
+
+
+/***** iframes *****/
+
+
+iframe {
+ display: block;
+width: 100%;
+}
+
+/***** home/auto *****/
+
+
+a.getAQuote {
+ display: block;
+ width: 94px;
+ height: 27px;
+ margin-left: 20px;
+ background-image: url(../img/generic/getAQuote.jpg);
+}
+
+a.getAQuote span {
+ display: none;
+}
+
+/***** forms *****/
+
+#content form {
+ /*width: 500px;*/
+ margin: auto;
+ border-bottom: 2px solid #babebf;
+}
+
+#content div.input {
+ padding: 2px 40px;
+}
+#content .highlight {
+ background-color: #babebf;
+}
+
+#content label {
+ display: block;
+ float: left;
+ width: 200px;
+}
+
+#content div.submit {
+ text-align: center;
+}
+
+
+
+
+/***** article input styles *****/
+
+#content .articleInput label {
+ display: inline;
+ float: none;
+ padding-left: 1em;
+}
+/*****  *****/
+
+/*****  *****/
+
+/*****  *****/
+

@@ -1,0 +1,197 @@
+/* site specific styles */
+
+<?php 
+$site_name = "staynomad";
+$bg_color = "#fff";
+$headline_color = "#34647f";
+$highlight_color = "#babebf";
+$link_color = "#000";
+$nav_color = "#000";
+$nav_color_current = "#888";
+?>
+body { background: <?php echo $bg_color ?> url(../img/<?php echo $site_name; ?>/bg.jpg) top center no-repeat;
+ padding: 0;
+ }
+
+#breadcrumb, #breadcrumb a, #footer, #footer a { color: black; }
+#footer, #footer a { color: black; }
+
+/***** navigation bar *****/
+
+ul#nav {
+ border-top: 1px solid #aaa;
+ padding-top: 0;
+ margin-top: 10px;
+}
+
+#homeLink {
+ display: block;
+ height: 154px;
+ background: url(../img/<?php echo $site_name; ?>/home.jpg) no-repeat;
+ position: relative;
+}
+
+#cdaLink {
+ display: block;
+ height: 75px;
+}
+
+#ingleLink {
+ display: block;
+ height: 75px;
+}
+
+#partnerLink {
+ display: block;
+ height: 75px;
+}
+
+a#visitorsLink {
+ display: block;
+ height: 130px;
+ background-image: url(../img/<?php echo $site_name; ?>/visitorsLink.jpg);
+ margin: 5px 0;
+}
+
+a#snowbirdsLink {
+ display: block;
+ height: 130px;
+ background-image: url(../img/<?php echo $site_name; ?>/snowbirdsLink.jpg);
+ margin: 5px 0;
+}
+
+a#needHelpLink {
+ display: block;
+ height: 130px;
+ background-image: url(../img/<?php echo $site_name; ?>/needHelpLink.jpg);
+ margin: 10px 0;
+}
+
+ul.nav li {
+ background: url(../img/<?php echo $site_name; ?>/bullet.gif) 2px 5px no-repeat;
+}
+
+ul.nav ul li {
+ background: url(../img/<?php echo $site_name; ?>/smallBullet.gif) 2px 5px no-repeat;
+}
+
+ul.nav a.current {
+ color: <?php echo $nav_color ; ?>;
+ font-weight: bold;
+}
+ul.nav a {
+ color: <?php echo $nav_color_current ; ?>;
+ font-weight: bold;
+}
+
+/***** content *****/
+
+h1, h2 { color: <?php echo $headline_color ?>; }
+h1 { font-family: "arial", helvetica, arial, sans-serif; }
+h2 { font-family: corbel, "arial", helvetica, arial, sans-serif; font-size: 1.8em; }
+
+#content h1 a:link, #content h1 a:visited, #content h2 a:link, #content h2 a:visited {
+ color: <?php echo $headline_color ?>;
+}
+
+#content a:link, #content a:visited {
+ color: <?php echo $link_color ?>;
+}
+
+/***** header images *****/
+
+h1.header {
+ height: 57px;
+ background-image: url(../img/<?php echo $site_name; ?>/header.jpg);
+ padding: 63px 0 0 6px;
+ color: <?php echo $top_header_color; ?>;
+ font-size: 20px; 
+ }
+h1.header span { 
+ display: inline;
+}
+
+/***** home/index *****/
+
+a.pageLink {
+ display: block;
+ float: left;
+ width: 220px;
+ height: 160px;
+ background-repeat: no-repeat;
+ background-position: 0 5px;
+}
+
+a.pageLink.travel {
+ margin-right: 14px;
+ margin-left: -5px;
+ background-image: url(../img/<?php echo $site_name; ?>/travelLink.jpg);
+}
+
+* html a.pageLink.travel { margin-left: -2px; }
+
+a.pageLink.health {
+ margin-right: 14px;
+ background-image: url(../img/<?php echo $site_name; ?>/healthLink.jpg);
+}
+
+a.pageLink.life {
+ margin-right: -5px;
+ background-image: url(../img/<?php echo $site_name; ?>/lifeLink.jpg);
+}
+
+a.pageLink.living {
+ margin-right: 14px;
+ margin-left: -5px;
+ background-image: url(../img/<?php echo $site_name; ?>/livingLink.jpg);
+}
+
+* html a.pageLink.living { margin-left: -2px; }
+
+a.pageLink.homeInsurance {
+ margin-right: 14px;
+ background-image: url(../img/<?php echo $site_name; ?>/homeInsuranceLink.jpg);
+}
+
+a.pageLink.vehicle {
+ margin-right: -5px;
+ background-image: url(../img/<?php echo $site_name; ?>/vehicleLink.jpg);
+}
+
+/***** travel *****/
+
+a.button {
+ display: block;
+ float: left;
+ width: 165px;
+ height: 130px;
+ text-indent: -1000em;
+ margin: 0 2px;
+ background-repeat: no-repeat;
+ background-image: 50% 10px;
+}
+
+* html a.snowbirds {
+/* fix ie6 duplicate character bug */
+ margin-right: -3px;
+}
+
+a.button.visitorsToCanada { background-image: url(/img/<?php echo $site_name; ?>/travel_visitorsToCanada.jpg); }
+a.button.canadianResidents { background-image: url(../img/<?php echo $site_name; ?>/travel_canadianResidents.jpg); }
+a.button.internationalStudents { background-image: url(../img/<?php echo $site_name; ?>/travel_internationalStudents.jpg); }
+a.button.snowbirds { background-image: url(../img/<?php echo $site_name; ?>/travel_snowbirds.jpg); }
+
+
+/***** iframes *****/
+
+iframe {
+ display: block;
+width: 100%;
+}
+
+/***** forms and highlighting *****/
+
+#content .highlight { background-color: <?php echo $highlight_color; ?>; }
+
+ul.addStripes { border: solid <?php echo $highlight_color; ?>; }
+

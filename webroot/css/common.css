@@ -1,0 +1,391 @@
+<?php
+// common styles for all post-Yak sites 
+?>
+body {
+ margin: 0;
+ padding: 1em;
+ font-family: verdana, helvetica, arial, sans-serif;
+}
+
+#wrapper {
+ width: 912px;
+ margin: 0 auto;
+}
+.wide #wrapper {
+ width: 982px;
+}
+
+#header {
+ color: white;
+ font-size: 0.8em;
+ padding: 0 5px;
+ line-height: 2em;
+}
+
+#header a {
+ color: white;
+}
+
+#header a:hover {
+ text-decoration: none;
+}
+
+#breadcrumb {
+ float: left;
+}
+
+#user_menu {
+ float: right;
+}
+
+.corners.top { clear: both; }
+
+#page {
+ background-color: white;
+ padding: 7px 13px 10px 15px;
+ width: 884px;
+ float: left;
+}
+.wide #page {
+ width: 954px;
+}
+
+#footer {
+ color: white;
+ text-align: right;
+ font-size: .8em;
+ line-height: 1.5em;
+ padding-right: 5px;
+}
+
+#footer a { color: white; }
+
+#footer a:hover{ text-decoration: none; }
+
+.corners {
+ height: 5px;
+ background-image: url(../img/common/corners.gif);
+}
+
+.corners.bottom {
+ background-position: bottom;
+ clear: both;
+ position: relative;
+}
+
+.wide .corners  {
+ background-image: url(../img/common/corners_wide.gif);
+}
+
+#poweredByPeak, #poweredByPeak_fr {
+ background: url(../img/common/powered_by_peak.jpg) no-repeat;
+ display: block;
+ height: 45px;
+ width: 178px;
+ position: absolute;
+ bottom: 8px;
+ left: 15px;
+}
+
+#poweredByPeak span, #poweredByPeak_fr span {
+ display: none;
+}
+
+/****** navigation bar ************/
+
+#navBar {
+ float: left;
+ width: 178px;
+ padding-bottom: 35px; /* for 'powered by peak' logo */
+}
+
+ul.nav {
+ margin: 10px 0 0 0;
+ padding: 0 0 15px 0;
+ font-size: .8em;
+ border-top: 1px solid #aaa;
+}
+
+ul.nav li {
+ display: block;
+ list-style-type: none;
+ padding: 2px 0 2px 13px;
+ border-bottom: 1px solid #aaa;
+}
+
+ul.nav ul {
+ margin: 0;
+ padding: 0;
+ font-size: .9em;
+}
+
+ul.nav ul li {
+ padding: 0 0 0 8px;
+ border-bottom: none;
+}
+
+ul.nav a {
+ color: black;
+ text-decoration: none;
+}
+
+ul.nav a:hover {
+ text-decoration: underline;
+}
+
+/***** content *****/
+
+#content {
+ float: right;
+ width: 690px;
+ /* need to move the content in by 5 pixels each side as the header images overflow by this much */
+ width: 680px;
+ padding: 0 5px;
+ font-size: .8em;
+}
+.wide #content {
+ width: 750px;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: helvetica, arial, sans-serif; }
+
+h2 { font-size: 1.4em; }
+
+h3 {font-size: 1.2em; }
+
+#content a:hover, #content a active { text-decoration: none; }
+
+#content strong { color: #555; }
+
+a img { border-style: none; }
+
+/****** image replacement ******/
+
+a.pageLink, a#snowbirdsLink, a#needHelpLink, a#visitorsLink, a#homeLink, #homeLink a {
+ text-indent: -10000px;
+ overflow: hidden;
+}
+
+/** jQuery rollover image replacement, IE6 gets just CSS replacement **/
+
+/* css hover only, no js */
+a.rollover { 
+ background-position: top left;
+ display: block;
+ position: relative;
+ overflow: hidden;
+ text-indent: -10000px;
+}
+a.rollover:hover { background-position: top right;}
+
+/* now with js */
+a.js:hover { background-position: top left !important;}
+a.rollover div {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+ text-indent: -10000px;
+ cursor: pointer;
+ background-position: top right;
+ background-repeat: no-repeat;
+ display: none;
+}
+
+
+/***** header images *****/
+
+h1.header {
+ margin: 0 -5px;
+ height: 122px;
+}
+
+h1.header span { display: none; }
+h1.header.student span { display: block; }
+
+
+/***** forms and highlighting *****/
+
+#content div.input {
+ padding: 2px 40px;
+}
+
+#content div.submit {
+ text-align: center;
+}
+
+ul.addStripes {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ width: 97%;
+ border-width: 2px 0 !important;
+}
+
+.addStripes a {
+ display: block;
+ line-height: 2em;
+ padding: 0 .5em;
+}
+
+* html ul.addStripes li { display: inline; }
+* html ul.addStripes a { width: 100%; }
+
+
+/***** article input styles *****/
+#content .articleInput label {
+ display: inline;
+ float: none;
+ padding-left: 1em;
+}
+
+/*****  *****/
+.disclaimer {
+ font-size: small;
+ color: #888;
+}
+
+.backToTop {
+ text-align: right;
+}
+
+#content form {
+ /*width: 500px;*/
+ margin: auto;
+ border-bottom-width: 0px;
+ border-bottom-style: solid;
+}
+
+fieldset {
+ border: none;
+}
+
+
+#content form div.input {
+ padding: 4px 0px 4px 25px;
+ margin-bottom: 1px;
+ float: left;
+ clear: both;
+ width: 95%;
+}
+
+#content .required {
+ background-image: url('../img/common/required.gif');
+ background-repeat: no-repeat;
+ background-position: 10px 50%;
+}
+
+#content form label {
+ display: block;
+ float: left;
+ width: 300px;
+}
+/* what is this for?
+#content fieldset label {
+ display: inline;
+ float: none;
+ margin-right: 1em;
+}
+*/
+#content div.submit {
+ text-align: center;
+}
+
+div.input {
+ -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+}
+
+div.error {
+ background-color: #e50707 !important;
+}
+
+div.error-message {
+ font-size: smaller;
+ font-weight: bold;
+}
+
+legend {
+ color: black;
+ margin-left: -13px;
+}
+
+table.layout {
+ width: 90%;
+ margin: auto;
+}
+
+table.layout td {
+ vertical-align: top;
+}
+
+label.work {
+ padding: 2px 30px 2px 5px;
+ background: url('../img/common/plane.gif') no-repeat right;
+}
+
+label.education {
+ padding: 2px 30px 2px 5px;
+ background: url('../img/common/student.gif') no-repeat right;
+}
+
+label.canada {
+ padding: 2px 30px 2px 5px;
+ background: url('../img/common/canada_flag.gif') no-repeat right;
+}
+
+label.usa {
+ padding: 2px 30px 2px 5px;
+ background: url('../img/common/usa_flag.gif') no-repeat right;
+}
+
+label.elsewhere {
+ padding: 2px 30px 2px 5px;
+ background: url('../img/common/globe.gif') no-repeat right;
+}
+
+iframe.clone {
+ height: 1600px;
+}
+
+iframe.etfs {
+ height: 1800px;
+}
+
+iframe.img {
+ height: 1200px;
+}
+
+iframe.mnui {
+ height: 1200px;
+}
+
+/***** home/auto *****/
+
+a.getAQuote {
+ display: block;
+ width: 94px;
+ height: 27px;
+ margin-left: 20px;
+ background-image: url(../img/common/getAQuote.jpg);
+}
+
+.fr a.getAQuote {
+ background-image: url(../img/french/getAQuote.jpg);
+}
+
+a.getAQuote span { display: none; }
+
+a.getStarted {
+ background: url(../img/common/getStarted.jpg);
+ display: block;
+ text-indent: -1000px;
+ height: 27px;
+ width: 94px;
+}
+
+.fr a.getStarted {
+ background-image: url(../img/french/getStarted.jpg);
+}

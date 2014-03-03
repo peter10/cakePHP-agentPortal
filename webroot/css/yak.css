@@ -1,0 +1,215 @@
+/* site specific styles */
+
+<?php 
+$site_name = "yak";
+$bg_color = "#2c81c4";
+$headline_color = "#f78f1e";
+$link_color = "#2c81c4";
+$highlight_color = "#c9ddef";
+$nav_color = "#2c81c4";
+?>
+body { background-color: <?php echo $bg_color ?>; }
+
+<?php 
+//#breadcrumb, #breadcrumb a, #footer, #footer a { color: black; }
+// yak specific stuff:
+if ($site_name == 'yak'):
+?>
+
+#homeLink {
+ display: block;
+ height: 154px;
+ background: url(../img/yak/home.gif) no-repeat;
+ position: relative;
+}
+
+a#yakLink {
+ display: block;
+ height: 75px;
+ width: 100%;
+}
+
+a#ingleLink {
+ display: block;
+ height: 79px;
+ width: 100%;
+}
+<?php
+ endif;
+?>
+
+/***** navigation bar *****/
+/*
+#homeLink {
+ display: block;
+ height: 154px;
+ background: url(../img/<?php echo $site_name; ?>/home.gif) no-repeat;
+ position: relative;
+}
+*/
+a#visitorsLink {
+ display: block;
+ height: 129px;
+ background-image: url(../img/<?php echo $site_name; ?>/visitorsLink.jpg);
+ margin: 5px 0;
+}
+
+a#snowbirdsLink {
+ display: block;
+ height: 129px;
+ background-image: url(../img/<?php echo $site_name; ?>/snowbirdsLink.jpg);
+ margin: 5px 0;
+}
+
+a#needHelpLink {
+ display: block;
+ height: 129px;
+ background-image: url(../img/<?php echo $site_name; ?>/needHelpLink.jpg);
+ margin: 10px 0;
+}
+
+ul.nav li {
+ background: url(../img/<?php echo $site_name; ?>/bullet.gif) 2px 6px no-repeat;
+}
+
+ul.nav ul li {
+ background: url(../img/<?php echo $site_name; ?>/smallBullet.gif) 2px 7px no-repeat;
+}
+
+ul.nav a.current {
+ color: <?php echo $nav_color ; ?>;
+ font-weight: bold;
+}
+
+/***** content *****/
+
+h1, h2 { color: <?php echo $headline_color ?>; }
+
+#content h1 a:link, #content h1 a:visited, #content h2 a:link, #content h2 a:visited {
+ color: <?php echo $headline_color ?>;
+}
+
+#content a:link, #content a:visited {
+ color: <?php echo $link_color ?>;
+}
+
+/***** header images *****/
+
+h1.header.home { background-image: url(../img/<?php echo $site_name; ?>/header_home.jpg); }
+h1.header.travel { background-image: url(../img/<?php echo $site_name; ?>/header_travel.jpg); }
+h1.header.health { background-image: url(../img/<?php echo $site_name; ?>/header_health.jpg); }
+h1.header.life { background-image: url(../img/<?php echo $site_name; ?>/header_life.jpg); }
+h1.header.quote { background-image: url(../img/<?php echo $site_name; ?>/header_quote.jpg); }
+h1.header.faq { background-image: url(../img/<?php echo $site_name; ?>/header_faq.jpg); }
+h1.header.about { background-image: url(../img/<?php echo $site_name; ?>/header_about.jpg); }
+h1.header.contact { background-image: url(../img/<?php echo $site_name; ?>/header_contact.jpg); }
+h1.header.claims { background-image: url(../img/<?php echo $site_name; ?>/header_claims.jpg); }
+h1.header.auto { background-image: url(../img/<?php echo $site_name; ?>/header_vehicleInsurance.jpg); }
+h1.header.homeInsurance { background-image: url(../img/<?php echo $site_name; ?>/header_homeInsurance.jpg); }
+h1.header.livingBenefits { background-image: url(../img/<?php echo $site_name; ?>/header_livingBenefits.jpg); }
+h1.header.termsOfService { background-image: url(../img/<?php echo $site_name; ?>/header_termsOfService.jpg); }
+h1.header.privacy { background-image: url(../img/<?php echo $site_name; ?>/header_privacy.jpg); }
+h1.header.legal { background-image: url(../img/<?php echo $site_name; ?>/header_legal.jpg); }
+h1.header.info { background-image: url(../img/<?php echo $site_name; ?>/header_info.jpg); }
+h1.header.whyInsurance { background-image: url(../img/<?php echo $site_name; ?>/header_whyInsurance.jpg); }
+
+
+/***** home/index *****/
+
+a.pageLink {
+ display: block;
+ float: left;
+ width: 220px;
+ background-repeat: no-repeat;
+}
+
+a.pageLink.travel {
+ height: 155px;
+ margin-right: 14px;
+ margin-left: -5px;
+ background: url(../img/<?php echo $site_name; ?>/travelLink.jpg) 0 20px no-repeat;
+}
+
+* html a.pageLink.travel { margin-left: -2px; }
+
+a.pageLink.health {
+ height: 155px;
+ margin-right: 14px;
+ background: url(../img/<?php echo $site_name; ?>/healthLink.jpg) 0 20px no-repeat;
+}
+
+a.pageLink.life {
+ height: 155px;
+ margin-right: -5px;
+ background: url(../img/<?php echo $site_name; ?>/lifeLink.jpg) 0 20px no-repeat;
+}
+
+a.pageLink.living {
+ height: 119px;
+ margin-right: 14px;
+ margin-left: -5px;
+ background-image: url(../img/<?php echo $site_name; ?>/livingLink.jpg);
+}
+
+* html a.pageLink.living { margin-left: -2px; }
+
+a.pageLink.homeInsurance {
+ height: 119px;
+ margin-right: 14px;
+ background-image: url(../img/<?php echo $site_name; ?>/homeInsuranceLink.jpg);
+}
+
+a.pageLink.vehicle {
+ height: 119px;
+ margin-right: -5px;
+ background-image: url(../img/<?php echo $site_name; ?>/vehicleLink.jpg);
+}
+
+/***** travel *****/
+
+a.button {
+ display: block;
+ float: left;
+ width: 165px;
+ height: 109px;
+ text-indent: -1000em;
+ margin: 0 2px;
+ background-repeat: no-repeat;
+}
+
+* html a.snowbirds {
+/* fix ie6 duplicate character bug */
+ margin-right: -3px;
+}
+
+a.button.visitorsToCanada { background-image: url(/img/<?php echo $site_name; ?>/travel_visitors_to_canada.jpg); }
+a.button.canadianResidents { background-image: url(../img/<?php echo $site_name; ?>/travel_canadian_residents.jpg); }
+a.button.internationalStudents { background-image: url(../img/<?php echo $site_name; ?>/travel_international_students.jpg); }
+a.button.snowbirds { background-image: url(../img/<?php echo $site_name; ?>/travel_snowbirds.jpg); }
+
+
+/***** iframes *****/
+
+iframe {
+ display: block;
+width: 100%;
+}
+
+/***** home/auto *****/
+
+a.getAQuote {
+ display: block;
+ width: 94px;
+ height: 27px;
+ margin-left: 20px;
+ background-image: url(../img/<?php echo $site_name; ?>/getAQuote.jpg);
+}
+
+a.getAQuote span { display: none; }
+
+/***** forms and highlighting *****/
+
+#content .highlight { background-color: <?php echo $highlight_color; ?>; }
+
+ul.addStripes { border: solid <?php echo $highlight_color; ?>; }
+
